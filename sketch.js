@@ -21,18 +21,18 @@ var isGameOver = false;
 var isLaughing = false;
 
 function preload() {
-  backgroundImg = loadImage("./assets/background.gif");
-  backgroundMusic = loadSound("./assets/background_music.mp3");
-  waterSound = loadSound("./assets/cannon_water.mp3");
-  pirateLaughSound = loadSound("./assets/pirate_laugh.mp3");
-  cannon_explosionSound = loadSound("./assets/cannon_explosion.mp3");
-  towerImage = loadImage("./assets/tower.png");
-  boatSpritedata = loadJSON("assets/boat/boat.json");
-  boatSpritesheet = loadImage("assets/boat/boat.png");
-  brokenBoatSpritedata = loadJSON("assets/boat/broken_boat.json");
-  brokenBoatSpritesheet = loadImage("assets/boat/broken_boat.png");
-  waterSplashSpritedata = loadJSON("assets/water_splash/water_splash.json");
-  waterSplashSpritesheet = loadImage("assets/water_splash/water_splash.png");
+  backgroundImg = loadImage("background.gif");
+  backgroundMusic = loadSound("background_music.mp3");
+  waterSound = loadSound("cannon_water.mp3");
+  pirateLaughSound = loadSound("pirate_laugh.mp3");
+  cannon_explosionSound = loadSound("cannon_explosion.mp3");
+  towerImage = loadImage("tower.png");
+  boatSpritedata = loadJSON("boat/boat.json");
+  boatSpritesheet = loadImage("boat/boat.png");
+  brokenBoatSpritedata = loadJSON("boat/broken_boat.json");
+  brokenBoatSpritesheet = loadImage("boat/broken_boat.png");
+  waterSplashSpritedata = loadJSON("water_splash/water_splash.json");
+  waterSplashSpritesheet = loadImage(water_splash/water_splash.png");
 }
 
 function setup() {
